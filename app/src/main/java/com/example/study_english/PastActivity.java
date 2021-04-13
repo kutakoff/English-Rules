@@ -23,18 +23,18 @@ public class PastActivity extends AppCompatActivity {
         past_continuous = findViewById(R.id.past_continuous);
         past_perfect = findViewById(R.id.past_perfect);
         past_perfect_continuous = findViewById(R.id.past_perfect_continuous);
-       // past_simple.setOnClickListener(new View.OnClickListener() {
-        //      @Override
-        //     public void onClick(View v) {
-        //            startActivity(new Intent(PastActivity.this, название класса.class));
-        //      }
-        //     });
-        //      past_continuous.setOnClickListener(new View.OnClickListener() {
-        //         @Override
-        //         public void onClick(View v) {
-        //             startActivity(new Intent(PastActivity.this, название класса.class));
-        //         }
-        //    });
+        past_simple.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                   startActivity(new Intent(PastActivity.this, Past_SimpleActivity.class));
+              }
+             });
+              past_continuous.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                 public void onClick(View v) {
+                    startActivity(new Intent(PastActivity.this, Past_ContinuousActivity.class));
+                 }
+            });
         //   past_perfect.setOnClickListener(new View.OnClickListener() {
         //       @Override
         //       public void onClick(View v) {

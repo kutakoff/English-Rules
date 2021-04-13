@@ -41,12 +41,12 @@ CardView present_perfect_continuous;
                  startActivity(new Intent(PresentActivity.this, Present_PerfectActivity.class));
              }
            });
-          // present_perfect_continuous.setOnClickListener(new View.OnClickListener() {
-        //        @Override
-        //    public void onClick(View v) {
-        //        startActivity(new Intent(PresentActivity.this, название класса.class));
-        //     }
-        //  });
+           present_perfect_continuous.setOnClickListener(new View.OnClickListener() {
+                @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PresentActivity.this, Present_Perf_ContActivity.class));
+             }
+          });
         button_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

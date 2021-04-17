@@ -1,7 +1,10 @@
 package com.example.study_english;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -18,6 +21,7 @@ public class alfavitActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alfavit);
+        if (getIntent().getBooleanExtra("EXIT", false)) { finish(); }
         Button button_back = findViewById(R.id.button_back);
         alfavit = findViewById(R.id.alfavit);
         alfavitSound = MediaPlayer.create(this, R.raw.alfavit_audio);
@@ -30,13 +34,24 @@ public class alfavitActivity extends AppCompatActivity {
         });
     }
 
-    @Override
+    public void onBackPressed_1() {
+        new AlertDialog.Builder(this)
+                .setMessage("Вы действительно хотите покинуть программу?")
+                .setCancelable(false)
+                .setPositiveButton("Да", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        finish();
+                    }
+                }).setNegativeButton("Нет", null).show();
+    };
+
+
     public void onBackPressed() {
         alfavitSound.stop();
         super.onBackPressed();
     }
 
-
+    public void quitApp(){ this.finishAffinity(); }
 
     public void imageClick() {
         alfavit.setOnClickListener(new View.OnClickListener() {
@@ -49,4 +64,5 @@ public class alfavitActivity extends AppCompatActivity {
     public void soundPlay(MediaPlayer sound) {
         sound.start();
     }
+
 }

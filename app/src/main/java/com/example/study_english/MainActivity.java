@@ -1,7 +1,10 @@
 package com.example.study_english;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -51,5 +54,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setMessage("Вы действительно хотите покинуть программу?")
+                .setCancelable(false)
+                .setPositiveButton("Да", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        finish();
+                    }
+                }).setNegativeButton("Нет", null).show();
+    };
+
 }
 

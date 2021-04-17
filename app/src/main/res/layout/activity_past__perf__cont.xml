@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Present_SimpleActivity">
+    tools:context=".Past_Perf_ContActivity">
 
     <ViewFlipper
         android:id="@+id/viewflipper"
@@ -19,34 +19,34 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="470dp"
+                android:layout_marginStart="315dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="5dp"
                 android:text="1/2"
                 android:textColor="#000000"
-                android:textSize="48sp"
+                android:textSize="35sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="400dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="290dp"
-                android:layout_marginStart="100dp"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="75dp"
                 android:gravity="center"
-                android:text="Текст про Present Simple"
+                android:text="Текст про Past Perfect Continuous"
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="48sp"
+                android:textSize="25sp"
                 android:layout_marginLeft="75dp" />
 
             <Button
                 android:id="@+id/button_back1"
-                android:layout_width="123dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="-575dp"
+                android:layout_width="85dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="-405dp"
                 android:background="@drawable/buttonback1_1" />
 
         </LinearLayout>
@@ -58,35 +58,36 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="470dp"
+                android:layout_marginStart="315dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="5dp"
                 android:text="2/2"
                 android:textColor="#000000"
-                android:textSize="48sp"
+                android:textSize="35sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="400dp"
-                android:layout_height="250dp"
-                android:layout_marginTop="290dp"
-                android:layout_marginStart="100dp"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="75dp"
                 android:gravity="center"
-                android:text="Тут тоже текст про Present Simple"
+                android:text="Тут тоже текст про Past Perfect Continuous"
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="48sp"
+                android:textSize="25sp"
                 android:layout_marginLeft="75dp" />
 
             <Button
                 android:id="@+id/button_back"
-                android:layout_width="173dp"
-                android:layout_height="95dp"
-                android:layout_marginTop="-705dp"
+                android:layout_width="85dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="-405dp"
                 android:background="@drawable/buttonback1_1" />
+
         </LinearLayout>
 
     </ViewFlipper>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Present_SimpleActivity">
+    tools:context=".Future_SimpleActivity">
 
     <ViewFlipper
         android:id="@+id/viewflipper"
@@ -19,34 +19,34 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:gravity="center"
-                android:layout_marginStart="470dp"
-                android:layout_marginLeft="150dp"
+                android:layout_marginStart="625dp"
+                android:layout_marginLeft="250dp"
                 android:layout_marginTop="0dp"
                 android:text="1/2"
                 android:textColor="#000000"
-                android:textSize="48sp"
+                android:textSize="65sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="400dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="290dp"
-                android:layout_marginStart="100dp"
+                android:layout_width="450dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="170dp"
                 android:gravity="center"
-                android:text="Текст про Present Simple"
+                android:text="Текст про Future Simple"
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="48sp"
+                android:textSize="65sp"
                 android:layout_marginLeft="75dp" />
 
             <Button
                 android:id="@+id/button_back1"
-                android:layout_width="123dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="-575dp"
+                android:layout_width="173dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="-705dp"
                 android:background="@drawable/buttonback1_1" />
 
         </LinearLayout>
@@ -58,27 +58,27 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:gravity="center"
-                android:layout_marginStart="470dp"
-                android:layout_marginLeft="150dp"
+                android:layout_marginStart="625dp"
+                android:layout_marginLeft="250dp"
                 android:layout_marginTop="0dp"
                 android:text="2/2"
                 android:textColor="#000000"
-                android:textSize="48sp"
+                android:textSize="65sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="400dp"
-                android:layout_height="250dp"
-                android:layout_marginTop="290dp"
-                android:layout_marginStart="100dp"
+                android:layout_width="450dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="170dp"
                 android:gravity="center"
-                android:text="Тут тоже текст про Present Simple"
+                android:text="Тут тоже текст про Future Simple"
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="48sp"
+                android:textSize="65sp"
                 android:layout_marginLeft="75dp" />
 
             <Button
@@ -87,6 +87,7 @@
                 android:layout_height="95dp"
                 android:layout_marginTop="-705dp"
                 android:background="@drawable/buttonback1_1" />
+
         </LinearLayout>
 
     </ViewFlipper>

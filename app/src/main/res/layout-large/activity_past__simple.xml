@@ -83,9 +83,9 @@
 
             <Button
                 android:id="@+id/button_back"
-                android:layout_width="123dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="-575dp"
+                android:layout_width="173dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="-705dp"
                 android:background="@drawable/buttonback1_1" />
         </LinearLayout>
 

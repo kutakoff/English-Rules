@@ -35,18 +35,18 @@ public class PastActivity extends AppCompatActivity {
                     startActivity(new Intent(PastActivity.this, Past_ContinuousActivity.class));
                  }
             });
-        //   past_perfect.setOnClickListener(new View.OnClickListener() {
-        //       @Override
-        //       public void onClick(View v) {
-        //          startActivity(new Intent(PastActivity.this, название класса.class));
-        //      }
-        //   });
-        //   past_perfect_continuous.setOnClickListener(new View.OnClickListener() {
-        //     @Override
-        //    public void onClick(View v) {
-        //        startActivity(new Intent(PastActivity.this, название класса.class));
-        //     }
-        //  });
+              past_perfect.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View v) {
+                  startActivity(new Intent(PastActivity.this,  Past_PerfectActivity.class));
+              }
+           });
+           past_perfect_continuous.setOnClickListener(new View.OnClickListener() {
+             @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PastActivity.this, Past_Perf_ContActivity .class));
+             }
+          });
          button_back.setOnClickListener(new View.OnClickListener() {
           @Override
             public void onClick(View v) {

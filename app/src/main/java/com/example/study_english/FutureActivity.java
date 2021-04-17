@@ -1,4 +1,5 @@
-package com.example.study_english;
+
+        package com.example.study_english;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -23,30 +24,30 @@ public class FutureActivity extends AppCompatActivity {
         future_perfect = findViewById(R.id.future_perfect);
         future_perfect_continuous = findViewById(R.id.future_perfect_continuous);
         Button button_back = findViewById(R.id.button_back);
-   //     future_simple.setOnClickListener(new View.OnClickListener() {
-        //        @Override
-        //        public void onClick(View v) {
-        //           startActivity(new Intent(FutureActivity.this, название класса.class));
-        //        }
-    //    });
-        //     future_continuous.setOnClickListener(new View.OnClickListener() {
-        //         @Override
-        //        public void onClick(View v) {
-        //           startActivity(new Intent(FutureActivity.this, название класса.class));
-        //       }
-        //     });
-        //   future_perfect.setOnClickListener(new View.OnClickListener() {
-        //     @Override
-        //    public void onClick(View v) {
-        //        startActivity(new Intent(FutureActivity.this, название класса.class));
-        //      }
-        //  });
-        //   future_perfect_continuous.setOnClickListener(new View.OnClickListener() {
-        //       @Override
-        //       public void onClick(View v) {
-        //          startActivity(new Intent(FutureActivity.this, название класса.class));
-        //      }
-        //    });
+             future_simple.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                   startActivity(new Intent(FutureActivity.this, Future_SimpleActivity .class));
+                }
+            });
+             future_continuous.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                public void onClick(View v) {
+                   startActivity(new Intent(FutureActivity.this, Future_ContinuousActivity .class));
+               }
+             });
+           future_perfect.setOnClickListener(new View.OnClickListener() {
+             @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FutureActivity.this,  Future_PerfectActivity.class));
+              }
+          });
+          future_perfect_continuous.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View v) {
+                  startActivity(new Intent(FutureActivity.this, Future_Perf_ContActivity .class));
+              }
+            });
         button_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

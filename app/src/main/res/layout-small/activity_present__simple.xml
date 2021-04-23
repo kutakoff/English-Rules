@@ -30,23 +30,11 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="17dp"
-                android:layout_marginLeft="75dp"
-                android:layout_marginTop="30dp"
-                android:gravity="center"
-                android:text="Текст про Present Simple"
-                android:textColor="#000000"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
             <Button
                 android:id="@+id/button_back1"
                 android:layout_width="40dp"
                 android:layout_height="25dp"
-                android:layout_marginTop="-141dp"
+                android:layout_marginTop="-41dp"
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
@@ -56,6 +44,14 @@
                 android:layout_marginStart="45dp"
                 android:layout_marginLeft="150dp"
                 android:background="@drawable/swipe"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-150dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/present_simple_1" />
 
         </LinearLayout>
 
@@ -77,29 +73,10 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:layout_marginStart="17dp"
-                android:layout_marginLeft="75dp"
-                android:layout_marginTop="30dp"
-                android:gravity="center"
-                android:text="Тут тоже текст про Present Simple"
-                android:textColor="#000000"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/button_back"
-                android:layout_width="40dp"
-                android:layout_height="25dp"
-                android:layout_marginTop="-141dp"
-                android:background="@drawable/buttonback1_1" />
-
             <ImageView
-                android:layout_width="370dp"
-                android:layout_height="500dp"
-                android:layout_marginTop="-650dp"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-150dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_simple_2" />

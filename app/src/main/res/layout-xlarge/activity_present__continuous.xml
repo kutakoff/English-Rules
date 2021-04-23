@@ -49,6 +49,14 @@
                 android:layout_marginTop="-705dp"
                 android:background="@drawable/buttonback1_1" />
 
+            <ImageView
+                android:layout_width="550dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="763dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="160dp"
+                android:background="@drawable/swipe"/>
+
         </LinearLayout>
 
         <LinearLayout

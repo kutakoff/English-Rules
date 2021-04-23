@@ -49,6 +49,14 @@
                 android:layout_marginTop="-575dp"
                 android:background="@drawable/buttonback1_1" />
 
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="625dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/swipe"/>
+
         </LinearLayout>
 
         <LinearLayout
@@ -87,6 +95,15 @@
                 android:layout_height="75dp"
                 android:layout_marginTop="-665dp"
                 android:background="@drawable/buttonback1_1" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="500dp"
+                android:layout_marginTop="-650dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/present_simple_2" />
+
         </LinearLayout>
 
     </ViewFlipper>

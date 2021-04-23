@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onBackPressed() {
         new AlertDialog.Builder(this)
-                .setMessage("Вы действительно хотите покинуть программу?")
+                .setMessage("Вы действительно хотите выйти из приложения?")
                 .setCancelable(false)
                 .setPositiveButton("Да", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {

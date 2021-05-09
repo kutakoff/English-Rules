@@ -31,7 +31,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button_back"
+                android:id="@+id/button_back1"
                 android:layout_width="123dp"
                 android:layout_height="75dp"
                 android:layout_marginTop="-120dp"
@@ -46,10 +46,10 @@
                 android:background="@drawable/swipe"/>
 
             <ImageView
-                android:layout_width="600dp"
+                android:layout_width="580dp"
                 android:layout_height="630dp"
-                android:layout_marginTop="-810dp"
-                android:layout_marginStart="-10dp"
+                android:layout_marginTop="-800dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_continuous_1"/>
 
@@ -73,13 +73,20 @@
                 android:textSize="48sp"
                 android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="173dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="-1705dp"
+                android:background="@drawable/buttonback1_1" />
+
             <ImageView
-                android:layout_width="550dp"
-                android:layout_height="790dp"
-                android:layout_marginTop="-25dp"
-                android:layout_marginStart="23dp"
+                android:layout_width="520dp"
+                android:layout_height="770dp"
+                android:layout_marginTop="1580dp"
+                android:layout_marginStart="36dp"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/present_continuous_3"/>
+                android:background="@drawable/present_continuous_3" />
 
         </LinearLayout>
 
@@ -101,14 +108,20 @@
                 android:textSize="48sp"
                 android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/button"
+                android:layout_width="173dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="-1705dp"
+                android:background="@drawable/buttonback1_1" />
 
             <ImageView
-                android:layout_width="570dp"
-                android:layout_height="670dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginStart="10dp"
+                android:layout_width="540dp"
+                android:layout_height="690dp"
+                android:layout_marginTop="1615dp"
+                android:layout_marginStart="26dp"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/present_continuous_2"/>
+                android:background="@drawable/present_continuous_2" />
 
         </LinearLayout>
 

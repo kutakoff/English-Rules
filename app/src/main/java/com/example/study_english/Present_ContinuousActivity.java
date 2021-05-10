@@ -34,10 +34,8 @@ public class Present_ContinuousActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_present__continuous);
         flipper = findViewById(R.id.viewflipper);
-        Button button_back = findViewById(R.id.button_back);
         Button button_back1 = findViewById(R.id.button_back1);
-        Random random = new Random();
-                    button_back.setOnClickListener(new View.OnClickListener() {
+                    button_back1.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     onBackPressed();
                 }

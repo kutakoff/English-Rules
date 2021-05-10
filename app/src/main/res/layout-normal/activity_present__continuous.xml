@@ -73,17 +73,10 @@
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/button_back"
-                android:layout_width="173dp"
-                android:layout_height="95dp"
-                android:layout_marginTop="-1705dp"
-                android:background="@drawable/buttonback1_1" />
-
             <ImageView
                 android:layout_width="360dp"
                 android:layout_height="710dp"
-                android:layout_marginTop="1590dp"
+                android:layout_marginTop="-20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_continuous_3" />

@@ -29,13 +29,7 @@ public class Past_PerfectActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_past__perfect);
         flipper = findViewById(R.id.viewflipper);
-        Button button_back = findViewById(R.id.button_back);
         Button button_back1 = findViewById(R.id.button_back1);
-        button_back.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
         button_back1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

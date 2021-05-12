@@ -47,8 +47,8 @@
 
             <ImageView
                 android:layout_width="380dp"
-                android:layout_height="500dp"
-                android:layout_marginTop="-650dp"
+                android:layout_height="545dp"
+                android:layout_marginTop="-680dp"
                 android:layout_marginStart="18dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_simple_1" />

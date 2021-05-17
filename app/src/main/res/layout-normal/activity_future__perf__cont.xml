@@ -22,40 +22,36 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="315dp"
+                android:layout_marginStart="325dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="5dp"
-                android:text="1/2"
+                android:layout_marginTop="0dp"
+                android:text="1/3"
                 android:textColor="#000000"
                 android:textSize="35sp"
                 android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="250dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="75dp"
-                android:gravity="center"
-                android:text="Текст про Future Perfect Continuous"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="25sp"
-                android:layout_marginLeft="75dp" />
 
             <Button
                 android:id="@+id/button_back1"
                 android:layout_width="85dp"
                 android:layout_height="47dp"
-                android:layout_marginTop="-405dp"
+                android:layout_marginTop="-70dp"
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="545dp"
-                android:layout_marginStart="70dp"
+                android:layout_marginStart="80dp"
                 android:layout_marginLeft="150dp"
                 android:background="@drawable/swipe"/>
+
+            <ImageView
+                android:layout_width="455dp"
+                android:layout_height="540dp"
+                android:layout_marginTop="-675dp"
+                android:layout_marginStart="-23dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_perf_cont_1" />
 
         </LinearLayout>
 
@@ -69,32 +65,56 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="315dp"
+                android:layout_marginStart="325dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="5dp"
-                android:text="2/2"
+                android:layout_marginTop="0dp"
+                android:text="3/3"
                 android:textColor="#000000"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="395dp"
+                android:layout_height="750dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="3.5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_perf_cont_3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
             <TextView
-                android:layout_width="250dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="75dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:gravity="center"
-                android:text="Тут тоже текст про Future Perfect Continuous "
+                android:layout_marginStart="325dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="0dp"
+                android:text="2/3"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="25sp"
-                android:layout_marginLeft="75dp" />
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button_back"
-                android:layout_width="85dp"
-                android:layout_height="47dp"
-                android:layout_marginTop="-405dp"
+                android:id="@+id/button"
+                android:layout_width="173dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="-1705dp"
                 android:background="@drawable/buttonback1_1" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="570dp"
+                android:layout_marginTop="1630dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_perf_cont_2" />
 
         </LinearLayout>
 

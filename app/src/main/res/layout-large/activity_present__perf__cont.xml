@@ -46,10 +46,10 @@
                 android:background="@drawable/swipe"/>
 
             <ImageView
-                android:layout_width="540dp"
+                android:layout_width="wrap_content"
                 android:layout_height="630dp"
                 android:layout_marginTop="-800dp"
-                android:layout_marginStart="30dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_perf_cont_1" />
 
@@ -74,10 +74,10 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="550dp"
+                android:layout_width="wrap_content"
                 android:layout_height="700dp"
                 android:layout_marginTop="-10dp"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_perf_cont_2" />
 

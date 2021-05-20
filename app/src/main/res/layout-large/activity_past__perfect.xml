@@ -46,10 +46,10 @@
                 android:background="@drawable/swipe"/>
 
             <ImageView
-                android:layout_width="550dp"
+                android:layout_width="wrap_content"
                 android:layout_height="630dp"
                 android:layout_marginTop="-800dp"
-                android:layout_marginStart="29dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/past_perfect_1" />
 
@@ -74,10 +74,10 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="515dp"
+                android:layout_width="wrap_content"
                 android:layout_height="730dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginStart="38dp"
+                android:layout_marginStart="-4dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/past_perfect_2" />
 

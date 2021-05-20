@@ -46,10 +46,10 @@
                 android:background="@drawable/swipe"/>
 
             <ImageView
-                android:layout_width="860dp"
+                android:layout_width="wrap_content"
                 android:layout_height="850dp"
                 android:layout_marginTop="-1067dp"
-                android:layout_marginStart="9dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_continuous_1" />
 
@@ -81,10 +81,10 @@
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
-                android:layout_width="770dp"
+                android:layout_width="wrap_content"
                 android:layout_height="1000dp"
                 android:layout_marginTop="1560dp"
-                android:layout_marginStart="65dp"
+                android:layout_marginStart="30dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_continuous_3" />
 
@@ -116,10 +116,10 @@
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
-                android:layout_width="770dp"
+                android:layout_width="wrap_content"
                 android:layout_height="980dp"
                 android:layout_marginTop="1580dp"
-                android:layout_marginStart="65dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/present_continuous_2" />
 

@@ -22,40 +22,36 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:gravity="center"
-                android:layout_marginStart="625dp"
+                android:layout_marginStart="360dp"
                 android:layout_marginLeft="250dp"
-                android:layout_marginTop="0dp"
-                android:text="1/2"
+                android:layout_marginTop="-20dp"
+                android:text="1/4"
                 android:textColor="#000000"
                 android:textSize="65sp"
                 android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="450dp"
-                android:layout_height="300dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="170dp"
-                android:gravity="center"
-                android:text="Текст про Future Simple"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="65sp"
-                android:layout_marginLeft="75dp" />
 
             <Button
                 android:id="@+id/button_back1"
                 android:layout_width="173dp"
                 android:layout_height="95dp"
-                android:layout_marginTop="-705dp"
+                android:layout_marginTop="-150dp"
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
-                android:layout_width="550dp"
-                android:layout_height="350dp"
-                android:layout_marginTop="763dp"
-                android:layout_marginStart="150dp"
+                android:layout_width="400dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="883dp"
+                android:layout_marginStart="250dp"
                 android:layout_marginLeft="160dp"
                 android:background="@drawable/swipe"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="910dp"
+                android:layout_marginTop="-1100dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_1" />
 
         </LinearLayout>
 
@@ -69,32 +65,83 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:gravity="center"
-                android:layout_marginStart="625dp"
+                android:layout_marginStart="360dp"
                 android:layout_marginLeft="250dp"
-                android:layout_marginTop="0dp"
-                android:text="2/2"
+                android:layout_marginTop="-20dp"
+                android:text="4/4"
+                android:textColor="#000000"
+                android:textSize="65sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1240dp"
+                android:layout_marginTop="-60dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:gravity="center"
+                android:layout_marginStart="360dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="-20dp"
+                android:text="3/4"
                 android:textColor="#000000"
                 android:textSize="65sp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="940dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
             <TextView
-                android:layout_width="450dp"
-                android:layout_height="300dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="170dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:gravity="center"
-                android:text="Тут тоже текст про Future Simple"
+                android:layout_marginStart="360dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="-20dp"
+                android:text="2/4"
                 android:textColor="#000000"
-                android:textStyle="bold"
                 android:textSize="65sp"
-                android:layout_marginLeft="75dp" />
+                android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button_back"
+                android:id="@+id/button"
                 android:layout_width="173dp"
                 android:layout_height="95dp"
-                android:layout_marginTop="-705dp"
+                android:layout_marginTop="-1705dp"
                 android:background="@drawable/buttonback1_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="940dp"
+                android:layout_marginTop="1610dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_2" />
 
         </LinearLayout>
 

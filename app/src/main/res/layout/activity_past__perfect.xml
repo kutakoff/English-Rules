@@ -22,41 +22,36 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="315dp"
+                android:layout_marginStart="180dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="0dp"
                 android:text="1/2"
                 android:textColor="#000000"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="250dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="75dp"
-                android:gravity="center"
-                android:text="Текст про Past Perfect"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="25sp"
-                android:layout_marginLeft="75dp" />
-
             <Button
                 android:id="@+id/button_back1"
                 android:layout_width="85dp"
                 android:layout_height="47dp"
-                android:layout_marginTop="-405dp"
+                android:layout_marginTop="-70dp"
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="545dp"
-                android:layout_marginStart="70dp"
+                android:layout_marginStart="80dp"
                 android:layout_marginLeft="150dp"
                 android:background="@drawable/swipe"/>
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="545dp"
+                android:layout_marginTop="-679dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/past_perfect_1" />
 
         </LinearLayout>
 
@@ -70,7 +65,7 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="315dp"
+                android:layout_marginStart="180dp"
                 android:layout_marginLeft="150dp"
                 android:layout_marginTop="5dp"
                 android:text="2/2"
@@ -78,24 +73,13 @@
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="250dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="75dp"
-                android:gravity="center"
-                android:text="Тут тоже текст про Past Perfect"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="25sp"
-                android:layout_marginLeft="75dp" />
-
-            <Button
-                android:id="@+id/button_back"
-                android:layout_width="85dp"
-                android:layout_height="47dp"
-                android:layout_marginTop="-405dp"
-                android:background="@drawable/buttonback1_1" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="550dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/past_perfect_2" />
 
         </LinearLayout>
 

@@ -22,41 +22,36 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="315dp"
+                android:layout_marginStart="180dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="5dp"
-                android:text="1/2"
+                android:layout_marginTop="0dp"
+                android:text="1/4"
                 android:textColor="#000000"
                 android:textSize="35sp"
                 android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="250dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="75dp"
-                android:gravity="center"
-                android:text="Текст про Future Simple"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="25sp"
-                android:layout_marginLeft="75dp" />
 
             <Button
                 android:id="@+id/button_back1"
                 android:layout_width="85dp"
                 android:layout_height="47dp"
-                android:layout_marginTop="-405dp"
+                android:layout_marginTop="-70dp"
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="545dp"
-                android:layout_marginStart="70dp"
+                android:layout_marginStart="80dp"
                 android:layout_marginLeft="150dp"
                 android:background="@drawable/swipe"/>
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="540dp"
+                android:layout_marginTop="-675dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_1" />
 
         </LinearLayout>
 
@@ -70,32 +65,84 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:gravity="center"
-                android:layout_marginStart="315dp"
+                android:layout_marginStart="180dp"
                 android:layout_marginLeft="150dp"
-                android:layout_marginTop="5dp"
-                android:text="2/2"
+                android:layout_marginTop="0dp"
+                android:text="4/4"
                 android:textColor="#000000"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="730dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
             <TextView
-                android:layout_width="250dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="75dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:gravity="center"
-                android:text="Тут тоже текст про Future Simple "
+                android:layout_marginStart="180dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="0dp"
+                android:text="3/4"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="25sp"
-                android:layout_marginLeft="75dp" />
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="680dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="-6dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_marginStart="180dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="0dp"
+                android:text="2/4"
+                android:textColor="#000000"
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button_back"
-                android:layout_width="85dp"
-                android:layout_height="47dp"
-                android:layout_marginTop="-405dp"
+                android:id="@+id/button"
+                android:layout_width="173dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="-1705dp"
                 android:background="@drawable/buttonback1_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="600dp"
+                android:layout_marginTop="1630dp"
+                android:layout_marginStart="-10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/future_simple_2" />
 
         </LinearLayout>
 

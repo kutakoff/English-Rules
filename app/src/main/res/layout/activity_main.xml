@@ -12,7 +12,7 @@
         android:layout_width="300dp"
         android:layout_height="110dp"
         android:gravity="center"
-        android:text="Правила по Английскому"
+        android:text="Шпаргалка по временам"
         android:textColor="#000000"
         android:textSize="39sp"
         android:textStyle="bold"
@@ -96,7 +96,7 @@
                 android:background="@drawable/future" />
         </androidx.cardview.widget.CardView>
 
-<androidx.cardview.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/alfavit"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -111,7 +111,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:background="@drawable/big_en_alfavit" />
+                android:background="@drawable/big_alphabet" />
         </androidx.cardview.widget.CardView>
 
     </GridLayout>

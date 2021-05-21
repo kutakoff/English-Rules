@@ -11,7 +11,6 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -21,7 +20,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:gravity="center"
-                android:layout_marginStart="720dp"
+                android:layout_marginStart="360dp"
                 android:layout_marginLeft="250dp"
                 android:layout_marginTop="-20dp"
                 android:text="1/3"
@@ -45,10 +44,10 @@
                 android:background="@drawable/swipe"/>
 
             <ImageView
-                android:layout_width="840dp"
+                android:layout_width="wrap_content"
                 android:layout_height="850dp"
                 android:layout_marginTop="-1067dp"
-                android:layout_marginStart="35dp"
+                android:layout_marginStart="37dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/past_continuous_1" />
 
@@ -63,14 +62,13 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:gravity="center"
-                android:layout_marginStart="720dp"
+                android:layout_marginStart="360dp"
                 android:layout_marginLeft="250dp"
                 android:layout_marginTop="-20dp"
                 android:text="3/3"
                 android:textColor="#000000"
                 android:textSize="65sp"
                 android:textStyle="bold" />
-
 
             <Button
                 android:id="@+id/button_back"
@@ -80,10 +78,10 @@
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
-                android:layout_width="800dp"
+                android:layout_width="wrap_content"
                 android:layout_height="1180dp"
                 android:layout_marginTop="1560dp"
-                android:layout_marginStart="41.5dp"
+                android:layout_marginStart="25dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/past_continuous_3" />
 
@@ -99,14 +97,13 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:gravity="center"
-                android:layout_marginStart="720dp"
+                android:layout_marginStart="360dp"
                 android:layout_marginLeft="250dp"
                 android:layout_marginTop="-20dp"
                 android:text="2/3"
                 android:textColor="#000000"
                 android:textSize="65sp"
                 android:textStyle="bold" />
-
 
             <Button
                 android:id="@+id/button"
@@ -116,10 +113,10 @@
                 android:background="@drawable/buttonback1_1" />
 
             <ImageView
-                android:layout_width="830dp"
+                android:layout_width="wrap_content"
                 android:layout_height="1010dp"
                 android:layout_marginTop="1610dp"
-                android:layout_marginStart="25dp"
+                android:layout_marginStart="22dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/past_continuous_2" />
 

@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="630dp"
                 android:layout_marginTop="-800dp"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="-5dp"
                 android:layout_marginLeft="20dp"
                 android:background="@drawable/future_perf_cont_1"/>
 

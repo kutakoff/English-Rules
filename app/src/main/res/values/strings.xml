@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Правила по английскому</string>
+    <string name="app_name">Шпаргалка по Английскому языку</string>
     <string name="title_activity_pr__simp_scroll">ScrollingActivity</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_present__continuous">ScrollingActivity</string>

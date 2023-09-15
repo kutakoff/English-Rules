@@ -9,36 +9,35 @@
 
     <TextView
         android:id="@+id/englishtext"
-        android:layout_width="300dp"
-        android:layout_height="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="10"
         android:text="Шпаргалка по временам"
         android:textColor="#000000"
-        android:textSize="39sp"
+        android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"/>
 
     <GridLayout
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
-        android:layout_height="530dp"
+        android:layout_height="500dp"
         android:layout_weight="8"
         android:columnCount="2"
         android:padding="14dp"
         android:rowCount="3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/englishtext"
-        app:layout_constraintVertical_bias="0.475">
+        app:layout_constraintTop_toBottomOf="@+id/englishtext">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/present"
@@ -49,8 +48,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            app:cardCornerRadius="12dp"
-            tools:ignore="MissingClass">
+            app:cardCornerRadius="12dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -68,8 +66,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            app:cardCornerRadius="12dp"
-            tools:ignore="MissingClass">
+            app:cardCornerRadius="12dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -87,8 +84,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            app:cardCornerRadius="12dp"
-            tools:ignore="MissingClass">
+            app:cardCornerRadius="12dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -96,8 +92,8 @@
                 android:background="@drawable/future" />
         </androidx.cardview.widget.CardView>
 
-<androidx.cardview.widget.CardView
-            android:id="@+id/alfavit"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/alphabet"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -105,8 +101,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            app:cardCornerRadius="12dp"
-            tools:ignore="MissingClass">
+            app:cardCornerRadius="12dp">
 
             <ImageView
                 android:layout_width="wrap_content"

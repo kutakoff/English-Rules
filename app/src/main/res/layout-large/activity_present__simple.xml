@@ -4,84 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Present_SimpleActivity">
+    tools:context=".present.Present_SimpleActivity">
 
     <ViewFlipper
         android:id="@+id/viewflipper"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="fill_parent">
 
-
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="#FFFFFF"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:id="@+id/firstSlide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginStart="235dp"
-                android:layout_marginLeft="150dp"
-                android:layout_marginTop="-10dp"
                 android:text="1/2"
                 android:textColor="#000000"
                 android:textSize="48sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/button_back1"
                 android:layout_width="123dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="-120dp"
-                android:background="@drawable/buttonback1_1" />
+                android:layout_height="90dp"
+                android:background="@drawable/buttonback1_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
+                android:id="@+id/imageView"
                 android:layout_width="350dp"
                 android:layout_height="200dp"
-                android:layout_marginTop="630dp"
-                android:layout_marginStart="125dp"
-                android:layout_marginLeft="150dp"
-                android:background="@drawable/swipe"/>
+                android:background="@drawable/swipe"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="630dp"
-                android:layout_marginTop="-800dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/present_simple_1" />
+                android:background="@drawable/present_simple_1"
+                app:layout_constraintBottom_toTopOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstSlide" />
 
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="#FFFFFF"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:id="@+id/secondSlide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginStart="235dp"
-                android:layout_marginLeft="150dp"
-                android:layout_marginTop="0dp"
                 android:text="2/2"
                 android:textColor="#000000"
                 android:textSize="48sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="700dp"
-                android:layout_marginTop="-10dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/present_simple_2" />
+                android:layout_height="630dp"
+                android:background="@drawable/present_simple_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/secondSlide" />
 
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ViewFlipper>
 

@@ -12,7 +12,7 @@ import android.widget.ViewFlipper;
 public final class GeneralMethods {
 
     /**
-     * Устанавливает размер указанному View, который равнен высоте экрана / 1.5
+     * Устанавливает высоту указанному View, который равнен высоте экрана / value
      *
      * @param view     сам view
      * @param activity активити класса
@@ -23,6 +23,20 @@ public final class GeneralMethods {
         activity.getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         ViewGroup.LayoutParams layoutParams = view.getLayoutParams();
         layoutParams.height = (int) (displayMetrics.heightPixels / value);
+    }
+
+    /**
+     * Устанавливает ширину указанному View, который равнен ширине экрана / value
+     *
+     * @param view     сам view
+     * @param activity активити класса
+     * @param value    значение, которое будет делить ширину экрана
+     */
+    public static void setViewSizeFromWidth(Activity activity, View view, double value) {
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        activity.getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        ViewGroup.LayoutParams layoutParams = view.getLayoutParams();
+        layoutParams.width = (int) (displayMetrics.heightPixels / value);
     }
 
     private static void SwipeLeft(ViewFlipper flipper, Context context) {
@@ -41,7 +55,7 @@ public final class GeneralMethods {
         float sensitivity = 50;
         if ((e1.getX() - e2.getX()) > sensitivity) {
             SwipeLeft(flipper, context);
-        } else if ((e2.getX() + e1.getX()) > sensitivity) {
+        } else if ((e2.getX() - e1.getX()) < sensitivity) {
             SwipeRight(flipper, context);
         }
         return true;

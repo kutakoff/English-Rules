@@ -8,23 +8,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".future.Future_SimpleActivity"></activity>
-        <activity android:name=".future.Future_Perf_ContActivity" />
-        <activity android:name=".future.Future_PerfectActivity" />
-        <activity android:name=".future.Future_ContinuousActivity" />
-        <activity android:name=".future.FutureActivity" />
-        <activity android:name=".past.Past_Perf_ContActivity" />
-        <activity android:name=".past.Past_PerfectActivity" />
-        <activity android:name=".past.Past_ContinuousActivity" />
-        <activity android:name=".past.Past_SimpleActivity" />
-        <activity android:name=".present.Present_Perf_ContActivity" />
-        <activity android:name=".present.Present_PerfectActivity" />
-        <activity android:name=".present.Present_SimpleActivity" />
-        <activity android:name=".AlphabetActivity" />
-        <activity android:name=".present.Present_ContinuousActivity" />
-        <activity android:name=".present.PresentActivity" />
-        <activity android:name=".past.PastActivity" />
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".RulesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,6 +17,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".future.Future_SimpleActivity" />
+        <activity android:name=".future.Future_Perf_ContActivity" />
+        <activity android:name=".future.Future_PerfectActivity" />
+        <activity android:name=".future.Future_ContinuousActivity" />
+        <activity android:name=".past.Past_Perf_ContActivity" />
+        <activity android:name=".past.Past_PerfectActivity" />
+        <activity android:name=".past.Past_ContinuousActivity" />
+        <activity android:name=".past.Past_SimpleActivity" />
+        <activity android:name=".present.Present_Perf_ContActivity" />
+        <activity android:name=".present.Present_PerfectActivity" />
+        <activity android:name=".present.Present_SimpleActivity" />
+        <activity android:name=".present.Present_ContinuousActivity" />
     </application>
 
 </manifest>

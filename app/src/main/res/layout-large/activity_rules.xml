@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:fitsSystemWindows="true"
+    tools:context=".RulesActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choose_pravilo">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/presentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/choose_pravilo"
+            app:layout_constraintVertical_bias="0.1">
+
+            <ImageButton
+                android:id="@+id/present"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/present_radius"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.05" />
+
+            <ImageButton
+                android:id="@+id/present_simple"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/present_simple"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/present" />
+
+            <ImageButton
+                android:id="@+id/present_continuous"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/present_continuous"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/present_simple" />
+
+            <ImageButton
+                android:id="@+id/present_perfect"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/present_perfect"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/present_continuous" />
+
+            <ImageButton
+                android:id="@+id/present_perfect_continuous"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/present_perfect_continuous_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/present_perfect" />
+
+            <ImageButton
+                android:id="@+id/past"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/past_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/present_perfect_continuous" />
+
+            <ImageButton
+                android:id="@+id/past_simple"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/past_simple"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/past" />
+
+            <ImageButton
+                android:id="@+id/past_continuous"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/past_continuous"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/past_simple" />
+
+            <ImageButton
+                android:id="@+id/past_perfect"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/past_perfect"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/past_continuous" />
+
+            <ImageButton
+                android:id="@+id/past_perfect_continuous"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/past_perfect_continuous_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/past_perfect" />
+
+            <ImageButton
+                android:id="@+id/future"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/future_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/past_perfect_continuous" />
+
+            <ImageButton
+                android:id="@+id/future_simple"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/future_simple"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/future" />
+
+            <ImageButton
+                android:id="@+id/future_continuous"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/future_continuous"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/future_simple" />
+
+            <ImageButton
+                android:id="@+id/future_perfect"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/future_perfect"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/future_continuous" />
+
+            <ImageButton
+                android:id="@+id/future_perfect_continuous"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/future_perfect_continuous_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/future_perfect" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+        <TextView
+            android:id="@+id/choose_pravilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Выбери нужное правило"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

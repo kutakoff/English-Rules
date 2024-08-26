@@ -2,7 +2,9 @@ package com.example.study_english;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,6 +39,39 @@ public final class GeneralMethods {
         activity.getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         ViewGroup.LayoutParams layoutParams = view.getLayoutParams();
         layoutParams.width = (int) (displayMetrics.heightPixels / value);
+    }
+
+    /**
+     * Получает тип экрана: "small", "normal", "large", "xlarge"
+     *
+     * @param activity активити класса
+     * @return название экрана
+     */
+    public static String getScreenType(Activity activity) {
+        int screenLayout = activity.getResources().getConfiguration().screenLayout;
+        screenLayout &= Configuration.SCREENLAYOUT_SIZE_MASK;
+        if (screenLayout == 1) {
+            return "small";
+        } else if (screenLayout == 2) {
+            return "normal";
+        } else if (screenLayout == 3) {
+            return "large";
+        } else {
+            return "xlarge";
+        }
+    }
+
+    public static float getTextSize(Activity activity) {
+        String screenName = getScreenType(activity);
+        if (screenName.equals("small")) {
+            return 10;
+        } else if (screenName.equals("normal")) {
+            return 30;
+        } else if (screenName.equals("large")) {
+            return 40;
+        } else {
+            return 50;
+        }
     }
 
     private static void SwipeLeft(ViewFlipper flipper, Context context) {
